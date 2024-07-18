@@ -2,20 +2,20 @@ name: frontend CI Workflow
 on:
   push:
     branches:
-    - main
-    - dev
-  paths: ['frontend/**']
+      - main
+      - dev
+    paths: ['frontend/**']
   pull_request:
     branches:
       - '**'
-  paths: ['frontend/**']
+    paths: ['frontend/**']
 
 defaults:
   run:
     working-directory: frontend
 
-jobs: 
-  build: 
+jobs:
+  build:
     timeout-minutes: 10
     runs-on: ubuntu-latest
 
