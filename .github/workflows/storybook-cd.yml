@@ -44,5 +44,5 @@ jobs:
       - name: Run Chromatic
         uses: chromaui/action@latest
         with:
+          workingDir: frontend
           projectToken: ${{ secrets.STORY_BOOK_TOKEN }}
-        working-directory: frontend
