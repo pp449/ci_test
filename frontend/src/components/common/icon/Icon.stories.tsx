@@ -2,7 +2,7 @@ import Icon from "./Icon";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const meta = {
-  title: "common/Icons",
+  title: "common/Icon",
   component: Icon,
   parameters: {
     docs: {

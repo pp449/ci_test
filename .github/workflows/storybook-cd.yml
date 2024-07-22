@@ -45,3 +45,4 @@ jobs:
         uses: chromaui/action@latest
         with:
           projectToken: ${{ secrets.STORY_BOOK_TOKEN }}
+        working-directory: frontend
